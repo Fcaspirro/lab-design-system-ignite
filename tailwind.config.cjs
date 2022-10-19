@@ -10,7 +10,7 @@ module.exports = {
       md: 18,
       lg: 20,
       xl: 24,
-      '2xl': 32,
+      '2xl': 32
     },
 
     colors: {
@@ -24,12 +24,12 @@ module.exports = {
         800: '#202024',
         400: '#7c7c8a',
         200: '#c4c4cc',
-        100: '#E1E1E6',
+        100: '#e1e1e6',
       },
 
       cyan: {
         500: '#81d8f7',
-        300: '#adeaff'
+        300: '#9be1fb',
       },
     },
     extend: {

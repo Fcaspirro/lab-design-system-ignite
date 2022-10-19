@@ -5,14 +5,14 @@ export default {
     title: 'Components/Heading',
     component: Heading,
     args: {
-        children: 'Lorem Ipsum.',
-        size: 'md',  
+        children: 'Lorem ipsum.',
+        size: 'md',
     },
     argTypes: {
         size: {
             options: ['sm', 'md', 'lg'],
             control: {
-                type:'inline-radio'
+                type: 'inline-radio'
             }
         }
     }
@@ -22,14 +22,14 @@ export const Default: StoryObj<HeadingProps> = {}
 
 export const Small: StoryObj<HeadingProps> = {
     args: {
-        size:'sm'
-    }
+        size: 'sm'
+    },
 }
 
 export const Large: StoryObj<HeadingProps> = {
     args: {
-        size:'lg'
-    }
+        size: 'lg'
+    },
 }
 
 export const CustomComponent: StoryObj<HeadingProps> = {
